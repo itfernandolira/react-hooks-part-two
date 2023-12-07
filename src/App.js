@@ -2,8 +2,10 @@ import Counter from './components/Counter';
 
 function App() {
   return (
-    <div className="">
-      <Counter />
+    <div className="container">
+      <div className='text-center'>
+        <Counter />
+      </div>
     </div>
   );
 }
